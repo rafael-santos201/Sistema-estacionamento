@@ -1,0 +1,14 @@
+C:\Users\rafael\Desktop\dio\obj\Debug\net6.0\dio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafael\Desktop\dio\obj\Debug\net6.0\dio.AssemblyInfoInputs.cache
+C:\Users\rafael\Desktop\dio\obj\Debug\net6.0\dio.AssemblyInfo.cs
+C:\Users\rafael\Desktop\dio\obj\Debug\net6.0\dio.csproj.CoreCompileInputs.cache
+C:\Users\rafael\Desktop\dio\bin\Debug\net6.0\dio.exe
+C:\Users\rafael\Desktop\dio\bin\Debug\net6.0\dio.deps.json
+C:\Users\rafael\Desktop\dio\bin\Debug\net6.0\dio.runtimeconfig.json
+C:\Users\rafael\Desktop\dio\bin\Debug\net6.0\dio.dll
+C:\Users\rafael\Desktop\dio\bin\Debug\net6.0\dio.pdb
+C:\Users\rafael\Desktop\dio\obj\Debug\net6.0\dio.dll
+C:\Users\rafael\Desktop\dio\obj\Debug\net6.0\refint\dio.dll
+C:\Users\rafael\Desktop\dio\obj\Debug\net6.0\dio.pdb
+C:\Users\rafael\Desktop\dio\obj\Debug\net6.0\dio.genruntimeconfig.cache
+C:\Users\rafael\Desktop\dio\obj\Debug\net6.0\ref\dio.dll
