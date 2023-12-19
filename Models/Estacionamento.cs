@@ -14,33 +14,28 @@ namespace dio.Models
 
         public void AdicionarVeiculo()
         {
-            // Implementado!!!!!
             Console.WriteLine("Digite a placa do veículo para estacionar:");
+            String carro_adcionar = Console.ReadLine();
+            veiculos.Add(carro_adcionar);
+            Console.WriteLine("Carro adicionado! ");
         }
 
         public void RemoverVeiculo()
         {
             Console.WriteLine("Digite a placa do veículo para remover:");
+            string carro_remover = Console.ReadLine();
 
-            // Pedir para o usuário digitar a placa e armazenar na variável placa
-            // *IMPLEMENTE AQUI*
-            string placa = "";
-
-            // Verifica se o veículo existe
-            if (veiculos.Any(x => x.ToUpper() == placa.ToUpper()))
+            if (veiculos.Any(x => x.ToUpper() == carro_remover.ToUpper()))
             {
-                Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
 
-                // TODO: Pedir para o usuário digitar a quantidade de horas que o veículo permaneceu estacionado,
-                // TODO: Realizar o seguinte cálculo: "precoInicial + precoPorHora * horas" para a variável valorTotal                
-                // *IMPLEMENTE AQUI*
-                int horas = 0;
-                decimal valorTotal = 0; 
+                Console.WriteLine("Quantas horas o veiculo permaneceu parado: ");
+                decimal horas_estacionamento = Decimal.Parse(Console.ReadLine());
+                decimal total = precoInicial + precoPorHora * horas_estacionamento;
 
-                // TODO: Remover a placa digitada da lista de veículos
-                // *IMPLEMENTE AQUI*
 
-                Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
+                veiculos.Remove(carro_remover);
+
+                Console.WriteLine($"O veículo {carro_remover} foi removido e o preço total foi de: R$ {total}");
             }
             else
             {
